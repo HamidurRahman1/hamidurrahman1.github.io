@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    margin-left: 250px;
+    margin-left: 220px;
     padding: 10px 50px;
     height: 10000px;
 }
@@ -48,5 +48,3 @@ body {
         float: none;
     }
 }
-
-

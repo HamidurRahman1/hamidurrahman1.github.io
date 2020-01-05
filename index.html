@@ -12,19 +12,19 @@
     <meta name="description" content="Personal Website"> 
     <meta name="author" content="Hamidur Rahman">
 
-    <link href="css/Stylesheet.css" rel="stylesheet">
-    <script src="js/Main.js"></script>
+    <link href="css/Stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="js/Main.js" type="application/javascript"></script>
 
 </head>
     
 <body>
 
-    <nav></nav>
-
     <div class="sidebar">
         <a href="https://hamidurrahman1.github.io/">Home</a>
         <a href="#aboutMe">About Me</a>
         <a href="#projects">Projects</a>
+        <a href="https://github.com/HamidurRahman1" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hamidur-rahman-378172133/" target="_blank">LinkedIn</a>
         <a href="#contact">Contact</a>
     </div>
 
@@ -33,6 +33,65 @@
         <div class="quote" id="quote">
             <h3>"Into a race to build something meaningful, new and useful for others."</h3>
             <span>&emsp;- Hamidur Rahman</span>
+        </div>
+
+        <div class="aboutMe" id="aboutMe"></div>
+
+        <div class="projects" id="projects">
+            <div class="project">
+                <h2><a href="https://github.com/HamidurRahman1/Project--WebCrawler" target="_blank">Webcrawler</a></h2>
+                <p>
+                    A fully functional WebCrawler developed in Java with Servlet, JSP and MySQL. This project is a
+                    'Search And Reporting Application' (SARA) - an application takes a base url to start crawling, retrieve
+                    and persist data as well as queries can be performed on above retrieved data. An Admin is able
+                    to specify how many links should be crawled from the given link and depth of search for each link.
+
+                    <br><br>
+                    
+                    Key points of this project - 
+                    <ul>
+                        <li>Session Management (for Admin)</li>
+                        <li>Some endpoints are restricted and not accessible to everyone</li>
+                        <li>Log all activities in database</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://github.com/HamidurRahman1/Project--SpringBootCRUDRESTfulWebservices" target="_blank">Spring Boot RESTful Webservices</a></h2>
+                <p>
+                    A fully responsive Spring Boot CRUD RESTful webservice project. This project was to demonstrate
+                    the ability to use frameworks and build RESTful webservices to serve as a REST API with some endpoints.
+                    It works with all popular http method GET, POST, PUT, DELETE. For data transfer format produces and consumes
+                    JSON object.
+
+                    Goals for this project -
+                    <ul>
+                        <li>Take advantage of Spring Data JPA</li>
+                        <li>Use Jackson to bind data</li>
+                        <li>Usage of Hibernate</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="project">
+                <h2><a href="https://github.com/HamidurRahman1/Project--CUNYfirst" target="_blank">CUNYfirst</a></h2>
+                <p>
+                    A complete functional web based school management application. This application has three main component.
+                    <ul>
+                        <li>Administration - to add a student etc. (admin related stuff)</li>
+                        <li>Student - a user</li>
+                        <li>Instructor - a user with some privileges</li>
+                    </ul>
+
+                    Goals for this project -
+                    <ul>
+                        <li>Demonstration of MVC pattern</li>
+                        <li>Retrieve resources from database as per request instead of a bulk request</li>
+                        <li>Bring some Spring Framework's module into play</li>
+                    </ul>
+                </p>
+            </div>
         </div>
 
     </div>
