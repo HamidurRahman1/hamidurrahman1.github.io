@@ -6,11 +6,15 @@ body {
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 220px;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
+    font-size: 21px;
+    border-radius: 20px 20px 5px 5px;
+    border-style: ridge;
+    border-color: steelblue;
 }
 
 .sidebar a {
@@ -29,7 +33,35 @@ body {
 .content {
     margin-left: 220px;
     padding: 10px 50px;
-    height: 10000px;
+    height: 2000px;
+    border-radius: 10px 10px 5px 5px;
+    border-style: groove;
+}
+
+.quote{
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.pic1{
+    width: 420px;
+    height: 300px;
+    float: left;
+}
+
+.pic2{
+    width: 420px;
+    height: 300px;
+    float: left;
+}
+
+.awardPic{
+
+}
+
+div{
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 700px) {

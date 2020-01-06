@@ -13,6 +13,9 @@
     <meta name="author" content="Hamidur Rahman">
 
     <link href="css/Stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="pics/download.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <script src="js/Main.js" type="application/javascript"></script>
 
 </head>
@@ -20,24 +23,54 @@
 <body>
 
     <div class="sidebar">
-        <a href="https://hamidurrahman1.github.io/">Home</a>
-        <a href="#aboutMe">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="https://github.com/HamidurRahman1" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/hamidur-rahman-378172133/" target="_blank">LinkedIn</a>
-        <a href="#contact">Contact</a>
+        <a href="#" class="fa fa-home"> Home</a>
+        <a href="#aboutMe" class="fa fa-info-circle"> About Me</a>
+        <a href="#projects" class="fa fa-external-link"> Projects</a>
+        <a href="https://github.com/HamidurRahman1" target="_blank" class="fa fa-github"> GitHub</a>
+        <a href="https://www.linkedin.com/in/hamidur-rahman-378172133/" target="_blank" class="fa fa-linkedin-square"> LinkedIn</a>
+        <a href="#contact" class="fa fa-send"> Contact</a>
     </div>
 
     <div class="content">
 
         <div class="quote" id="quote">
-            <h3>"Into a race to build something meaningful, new and useful for others."</h3>
-            <span>&emsp;- Hamidur Rahman</span>
+            <blockquote>"Into a race to build something meaningful, new and useful for others." - Hamidur Rahman</blockquote>
         </div>
 
-        <div class="aboutMe" id="aboutMe"></div>
+        <div class="aboutMe" id="aboutMe">
+            <section>About me</section>
+            <blockquote>"Prove yourself by doing it, right things will find its way to you."</blockquote>
+            <div class="aboutMeContent">
+                Hi, my name is Hamidur Rahman. I am an aspiring Backend Java Developer. Currently I am in my senior year
+                at City University of New York - Queens College, where I am pursuing BA in
+                Computer Science. I am expected to graduate in June 2020. I am currently working as a College Assistant under
+                <em><strong>Registrar</strong></em> department at LaGuardia Community College. I was awarded with LaGCC Front Line
+                Staff Star Award in 2019.
+
+                <div class="awardPic">
+                    <br>
+                    <img src="pics/IMG_1.JPG" alt="Hamidur Rahman" class="pic1">
+                    <img src="pics/IMG_2.JPG" alt="Hamidur Rahman" class="pic2">
+                    <br>
+                </div>
+
+                <br><br>
+
+                I am really passionate about building/working with large scale application in Java. To build something big
+                big, useful and that can make impact, lots of tools are necessary. That's when framework like <em><strong>Spring</strong></em> and
+                <em><strong>Hibernate</strong></em> (for Database) comes into play. To stand aside from others I have learned applicable knowledge of these and
+                have built programs to demonstrate the skills. All programs are available in my <em><strong>GitHub</strong></em> account.
+
+                <br><br>
+
+                Beside this, in my spare time I like to watch movies/tv shows, listen to music, watch sports or take a long drive.
+            </div>
+        </div>
 
         <div class="projects" id="projects">
+
+            <div class="projectHeader">Although I worked on many small/big projects, belows projects are the notable ones</div>
+
             <div class="project">
                 <h2><a href="https://github.com/HamidurRahman1/Project--WebCrawler" target="_blank">Webcrawler</a></h2>
                 <p>
@@ -92,6 +125,10 @@
                     </ul>
                 </p>
             </div>
+        </div>
+
+        <div>
+
         </div>
 
     </div>
