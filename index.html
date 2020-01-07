@@ -1,77 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-    
-<head>
 
+<head>
+    <meta charset="UTF-8">
     <title>Hamidur Rahman</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="github pages, personal website, HTML, JavaScript, CSS, hamidur rahman">
-    <meta name="description" content="Personal Website"> 
+    <meta name="description" content="Personal Website">
     <meta name="author" content="Hamidur Rahman">
 
     <link href="css/Stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="pics/download.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <script src="js/Main.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
 
 </head>
-    
+
 <body>
 
-    <div class="sidebar">
-        <a href="#" class="fa fa-home"> Home</a>
-        <a href="#aboutMe" class="fa fa-info-circle"> About Me</a>
-        <a href="#projects" class="fa fa-external-link"> Projects</a>
-        <a href="https://github.com/HamidurRahman1" target="_blank" class="fa fa-github"> GitHub</a>
-        <a href="https://www.linkedin.com/in/hamidur-rahman-378172133/" target="_blank" class="fa fa-linkedin-square"> LinkedIn</a>
-        <a href="#contact" class="fa fa-send"> Contact</a>
-        <a onclick="doRandom()">Random</a>
+<header>
+
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#aboutMe"><li>About Me</li></a>
+                <a href=""><li>GitHub</li></a>
+                <a href=""><li>LinkedIn</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#contact-area"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="view intro-2">
+        <div class="full-bg-img">
+            <div class="mask rgba-black-strong flex-center">
+                <div class="container">
+                    <div class="white-text text-center wow fadeInUp">
+                        <h2>
+                            <blockquote>"Into a race to build something meaningful, new and useful for others."</blockquote>
+                                <footer>&mdash;
+                                    <cite>
+                                        Hamidur Rahman
+                                    </cite>
+                                </footer>
+                            </blockquote>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="content">
+</header>
 
-        <div class="quote" id="quote">
-            <blockquote>"Into a race to build something meaningful, new and useful for others." - Hamidur Rahman</blockquote>
-        </div>
+<main class="text-center my-5">
 
-        <div class="aboutMe" id="aboutMe">
-            <section>About me</section>
-            <blockquote>"Prove yourself by doing it, right things will find its way to you."</blockquote>
-            <div class="aboutMeContent">
-                Hi, my name is Hamidur Rahman. I am an aspiring Backend Java Developer. Currently I am in my senior year
-                at City University of New York - Queens College, where I am pursuing BA in
-                Computer Science. I am expected to graduate in June 2020. I am currently working as a College Assistant under
-                <em><strong>Registrar</strong></em> department at LaGuardia Community College. I was awarded with LaGCC Front Line
-                Staff Star Award in 2019.
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
-                <div class="awardPic">
-                    <br>
-                    <img src="pics/IMG_1.JPG" alt="Hamidur Rahman" class="pic1">
-                    <img src="pics/IMG_2.JPG" alt="Hamidur Rahman" class="pic2">
-                    <br>
+                <div class="aboutMe" id="aboutMe">
+                    <section>About me</section>
+                    <blockquote>"Prove yourself by doing it, right things will find its way to you."</blockquote>
+                    <div class="aboutMeContent">
+                        Hi, my name is Hamidur Rahman. I am an aspiring Backend Java Developer. Currently I am in my senior year
+                        at City University of New York - Queens College, where I am pursuing BA in
+                        Computer Science. I am expected to graduate in June 2020. I am currently working as a College Assistant under
+                        <em><strong>Registrar</strong></em> department at LaGuardia Community College. I was awarded with LaGCC Front Line
+                        Staff Star Award in 2019.
+
+                        <div class="awardPic">
+                            <div class="pics">
+                                <img src="pics/IMG_1.JPG" alt="Hamidur" style="width: 100%">
+                            </div>
+                            <div class="pics">
+                                <img src="pics/IMG_2.JPG" alt="Hamidur" style="width: 100%">
+                            </div>
+                        </div>
+
+                        <br><br>
+
+                        I am really passionate about building/working with large scale application in Java. To build something big
+                        big, useful and that can make impact, lots of tools are necessary. That's when framework like <em><strong>Spring</strong></em> and
+                        <em><strong>Hibernate</strong></em> (for Database) comes into play. To stand aside from others I have learned applicable knowledge of these and
+                        have built programs to demonstrate the skills. All programs are available in my <em><strong>GitHub</strong></em> account.
+
+                        <br><br>
+
+                        Beside this, in my spare time I like to watch movies/tv shows, listen to music, watch sports or take a long drive.
+                    </div>
                 </div>
 
-                <br><br>
-
-                I am really passionate about building/working with large scale application in Java. To build something big
-                big, useful and that can make impact, lots of tools are necessary. That's when framework like <em><strong>Spring</strong></em> and
-                <em><strong>Hibernate</strong></em> (for Database) comes into play. To stand aside from others I have learned applicable knowledge of these and
-                have built programs to demonstrate the skills. All programs are available in my <em><strong>GitHub</strong></em> account.
-
-                <br><br>
-
-                Beside this, in my spare time I like to watch movies/tv shows, listen to music, watch sports or take a long drive.
             </div>
         </div>
 
-        <div class="projects" id="projects">
+        <div class="projects" id="projects" align="justify">
 
             <section>Projects</section>
-            <div class="projectHeader">Although I worked on many small/big projects, belows projects are the notable ones</div>
+            <div class="projectHeader">Although I worked on many small/big projects, belows projects are the notable ones.</div>
 
             <div class="project">
                 <h2><a href="https://github.com/HamidurRahman1/Project--WebCrawler" target="_blank">Webcrawler</a></h2>
@@ -82,13 +121,13 @@
                     to specify how many links should be crawled from the given link and depth of search for each link.
 
                     <br><br>
-                    
-                    Key points of this project - 
-                    <ul>
-                        <li>Session Management (for Admin)</li>
-                        <li>Some endpoints are restricted and not accessible to everyone</li>
-                        <li>Log all activities in database</li>
-                    </ul>
+
+                    Key points of this project -
+                <ul>
+                    <li>Session Management (for Admin)</li>
+                    <li>Some endpoints are restricted and not accessible to everyone</li>
+                    <li>Log all activities in database</li>
+                </ul>
                 </p>
             </div>
 
@@ -101,11 +140,11 @@
                     JSON object.
 
                     Goals for this project -
-                    <ul>
-                        <li>Take advantage of Spring Data JPA</li>
-                        <li>Use Jackson to bind data</li>
-                        <li>Usage of Hibernate</li>
-                    </ul>
+                <ul>
+                    <li>Take advantage of Spring Data JPA</li>
+                    <li>Use Jackson to bind data</li>
+                    <li>Usage of Hibernate</li>
+                </ul>
                 </p>
             </div>
 
@@ -113,47 +152,64 @@
                 <h2><a href="https://github.com/HamidurRahman1/Project--CUNYfirst" target="_blank">CUNYfirst</a></h2>
                 <p>
                     A complete functional web based school management application. This application has three main component.
-                    <ul>
-                        <li>Administration - to add a student etc. (admin related stuff)</li>
-                        <li>Student - a user</li>
-                        <li>Instructor - a user with some privileges</li>
-                    </ul>
+                <ul>
+                    <li>Administration - to add a student etc. (admin related stuff)</li>
+                    <li>Student - a user</li>
+                    <li>Instructor - a user with some privileges</li>
+                </ul>
 
-                    Goals for this project -
-                    <ul>
-                        <li>Demonstration of MVC pattern</li>
-                        <li>Retrieve resources from database as per request instead of a bulk request</li>
-                        <li>Bring some Spring Framework's module into play</li>
-                    </ul>
+                Goals for this project -
+                <ul>
+                    <li>Demonstration of MVC pattern</li>
+                    <li>Retrieve resources from database as per request instead of a bulk request</li>
+                    <li>Bring some Spring Framework's module into play</li>
+                </ul>
                 </p>
             </div>
         </div>
 
-        <div class="contact" id="contact">
+        <div id="contact-area">
+            <section class="resume-section p-4 p-lg-5 text-center" id="contact">
+                <div class="my-auto message">
+                    <h2 class="mb-4">&lt;Let's Get in Touch&gt;</h2>
 
-            <section>Contact Me</section>
+                    <ul class="fa-ul mb-4 ml-0">
+                        <li id="mail-address" class="message">
+                            <i class="fas fa-envelope-open mr-2 contact-icons"></i>hamidur0405@gmail.com</a>
+                        </li>
+                        <li class="message">
+                            <i class="fas fa-mobile-alt mr-2 contact-icons"></i>+12124700016
+                        </li>
+                        <li class="message">
+                            <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>New York City, NY
+                        </li>
+                    </ul>
 
-            <form action="https://formspree.io/hamidur0405@gmail.com" method="POST">
-                <label>
-                    Your Name:<input type="text" name="name">
-                </label>
-                <br>
-                <label>
-                    Your Email:<input type="email" name="_replyto">
-                </label>
-                <br>
-                <label>
-                    Message:<textarea name="message"></textarea>
-                </label>
-                <br>
-                <input type="submit" value="Send">
-            </form>
+                    <p class="message">
+                        ...or leave your message below and I will be back to you as soon as
+                        possible.
+                    </p>
+
+                    <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/hamidur0405@gmail.com" method="POST">
+                        <div class="form-group w-75">
+                            <input type="name" class="form-control" placeholder="Name" name="name" required/>
+                        </div>
+                        <div class="form-group w-75">
+                            <input type="email" class="form-control" placeholder="Email" name="name" required/>
+                        </div>
+
+                        <div class="form-group w-75">
+                            <textarea class="form-control" type="text" placeholder="Message" rows="7" name="name" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+                    </form>
+                </div>
+            </section>
         </div>
-
-        <div id="random"></div>
 
     </div>
 
-</body>    
+</main>
 
+</body>
 </html>
