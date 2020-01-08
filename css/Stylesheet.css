@@ -3,12 +3,51 @@ body {
     font-family: "Georgia", sans-serif;
 }
 
+.projects section h2{
+    font-size: 40px;
+    font-family: "Tahoma", sans-serif;
+    text-decoration: underline;
+}
+
+.projects p, .projects ul{
+    color: #333;
+    font-family: "Georgia", sans-serif;
+    margin-bottom: 15px;
+}
+
+.project{
+    -webkit-box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
+    -moz-box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
+    box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
+    padding: 25px;
+}
+
+.project a {
+    color: #ff6600;
+    transition: .6s;
+    -moz-transition: .6s;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    font-family: "Tahoma", sans-serif;
+}
+
+
+.project a:hover {
+    text-decoration: underline;
+    text-decoration-color: lightsteelblue;
+}
+
+.mine{
+    font-size: 35px;
+    font-family: "Georgia", sans-serif;
+}
+
 .message{
-    font-family: Georgia;
+    font-family: "Georgia", "Times New Roman";
     font-size: 20px;
 }
 
-#contact-area{
+#contact-area, .projects{
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -104,8 +143,7 @@ header,
 
 /*Credits: https://codepen.io/erikterwan/pen/EVzeRP*/
 
-body
-{
+body {
     margin: 0;
     padding: 0;
 
@@ -113,8 +151,7 @@ body
     color: #cdcdcd;
 }
 
-#menuToggle
-{
+#menuToggle {
     display: block;
     position: relative;
     top: 50px;
@@ -126,22 +163,19 @@ body
     user-select: none;
 }
 
-#menuToggle a
-{
+#menuToggle a {
     text-decoration: none;
     color: #232323;
 
     transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
     color: tomato;
 }
 
 
-#menuToggle input
-{
+#menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
@@ -157,8 +191,7 @@ body
     -webkit-touch-callout: none;
 }
 
-#menuToggle span
-{
+#menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
@@ -177,36 +210,30 @@ body
     opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
     transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
-{
+#menu {
     position: absolute;
     width: 300px;
     margin: -100px 0 0 -50px;
@@ -223,16 +250,11 @@ body
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li {
     padding: 10px 0;
     font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
     transform: none;
 }
-
-
-/**/
