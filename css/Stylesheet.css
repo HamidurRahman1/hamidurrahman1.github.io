@@ -3,10 +3,21 @@ body {
     font-family: "Georgia", sans-serif;
 }
 
-.projects section h2{
+.projects section h2, .aboutMe section h2{
     font-size: 40px;
     font-family: "Tahoma", sans-serif;
     text-decoration: underline;
+}
+
+#aboutMe h2:hover, #projects h2:hover{
+    animation: shake 0.9s;
+}
+
+em{
+    padding: 2px;
+    text-decoration: beige;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .projects p, .projects ul{
@@ -19,6 +30,15 @@ body {
     -webkit-box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
     -moz-box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
     box-shadow: -5px -6px 13px -2px rgba(73,82,20,0.42);
+    padding: 25px;
+}
+
+.aboutMeContent{
+    -webkit-box-shadow: -5px -6px 13px -8px rgba(153,194,167,1);
+    -moz-box-shadow: -5px -6px 13px -8px rgba(153,194,167,1);
+    box-shadow: -5px -6px 13px -8px rgba(153,194,167,1);
+    font-family: "Georgia", sans-serif;
+    font-size: 18px;
     padding: 25px;
 }
 
@@ -43,15 +63,15 @@ body {
 }
 
 .message{
-    font-family: "Georgia", "Times New Roman";
+    font-family: "Georgia", "Times New Roman", sans-serif;
     font-size: 20px;
 }
 
-#contact-area, .projects{
+#contact-area, .projects, .aboutMe{
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border-color: steelblue;
+    border-color: #ededed;
     border-style: ridge;
 
     padding-top: 50px;
@@ -127,7 +147,8 @@ div{
 }
 
 .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+    /*background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;*/
+    background: url("../pics/background.jpg") no-repeat center center;
     background-size: cover;
 }
 
